@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=DotGothic16&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 1.6rem;
+    font-family: 'Cormorant Garamond', serif;
+    /* If font family has more than one word, wrap it with single quotes */
+}
+
+/* input, button{
+    font: inherit;
+} */
+
+p{
+    /* text-decoration: underline;
+    text-transform:uppercase;
+    text-align: justify; */
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2em;
+   /*  font-weight: bold;
+   font-style: italics; */
+}
+.heading{
+    text-transform: uppercase;
+    font-family: 'DotGothic16', sans-serif;
+}

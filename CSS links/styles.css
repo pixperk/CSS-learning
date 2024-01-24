@@ -1,0 +1,22 @@
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+   /*  cursor: not-allowed; */
+   color:hsl(207, 44%, 49%);
+}
+a:visited{
+    color:purple;
+}
+
+a:hover, a:focus{
+    opacity: 0.8;
+/* or color:hsl(189, 44%, 49%, 0.8); */
+}
+a:active{
+    color:#7fffd4;
+    font-size: 2.5rem;
+}

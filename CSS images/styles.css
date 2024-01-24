@@ -1,0 +1,108 @@
+/* Begin Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+/* End Reset */
+
+/*  Utility-Classes */
+.nowrap {
+    white-space: nowrap;
+}
+
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
+/* End Utility Classes */
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+    background-color: aliceblue;
+   /*  background-image: url('images/vecteezy_fondo-transparente-de-burbuja-de-agua-dibujada-a-mano_13835018.png'),
+        linear-gradient(to bottom, coral, aliceblue, #0f0);
+    background-repeat: repeat-y, no-repeat;
+    background-position: right center;
+    background-size: 20%, auto; */
+    background: repeat-y right center url('images/vecteezy_fondo-transparente-de-burbuja-de-agua-dibujada-a-mano_13835018.png')
+    ,no-repeat linear-gradient(to left, steelblue, white);
+    background-size: 20%, auto;
+}
+
+.container {
+    background-color: rgb(251, 210, 156);
+    background-image: url('images/mg5.webp');
+    /* background-repeat: no-repeat; */
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: hsla(0, 0%, 0%, 0.404);
+}
+
+.hero {
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+    background-color: hsla(0, 14%, 93%, 0.037);
+
+
+}
+
+.h1 {
+    font-size: 500%;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px #333;
+    /* x y blur-radius */
+    /*
+        padding: 0.25rem;
+        border-radius: 10px; */
+}
+
+.example {
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+}
+
+.example img {
+    width: 25%;
+    height: auto;
+
+}
+
+.profile-pic-figure {
+    width: 35%;
+    height: auto;
+}
+
+.profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double gray;
+    border-radius: 50%;
+}
+.clip{
+    font-weight: 800;
+    font-size: 18rem;
+    text-align: center;
+    background-image:url('images/profile-square-extra-small.png');
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    background-clip: text;
+    color: hsla(0, 0%, 0%, 0.2);
+}
